@@ -17,14 +17,15 @@ for measuring how much binding language (obligations and prohibitions) they cont
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
+python crawl.py --limit 20        # test run: index plus the first 20 laws
+python crawl.py                   # all laws, about two hours
+python crawl.py --refresh-index   # fetch a fresh index first
 ```
 
-Run `01_explore.ipynb` up to the index step to create `data/toc.csv`, then:
-
-```bash
-python crawl.py --limit 20   # test run
-python crawl.py              # all laws, about two hours
-```
+Already downloaded laws are skipped. For a completely new snapshot, delete
+`data/laws/` before running the crawler. The index date is stored in
+`data/index_date.txt`.
 
 ## Data source
 
