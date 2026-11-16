@@ -56,9 +56,9 @@ in the index, all downloaded successfully.
 | Rule | §, Art, Artikel | 93,718 | main analysis |
 | Annex | Anlage, Anhang, Muster | 4,891 | analysed separately |
 | Unnumbered | (XXXX) | 1,423 | excluded from main analysis; mostly notices repeated every year |
-| Other | all remaining types | [OTHER] | spot-checked |
+| Other | all remaining types | 744 | spot-checked |
 
-**Final corpus:** [TOTAL] provisions from 5,965 laws and regulations.
+**Final corpus:** 100,776 provisions from 5,965 laws and regulations.
 
 **Spelling:** Many older provisions still use pre-1996 spelling. In the GmbHG,
 "muß" appears 13 times and "muss" 12 times. Any measure of binding language
